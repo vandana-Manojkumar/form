@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css"/>
+</head>
+<body>
+  <div class="top">
+  <div class="header">
+    <div>
+      <h1 class="h1">Register Form</h1>
+    </div>
+    <form id="formid" class="form">
+      <div>
+        <label class="label" for="entername">Name</label>
+        <input class="input" type="text" placeholder="Enter your name" id="entername"/>
+        <p class=" pname" id="pname"> </p>
+      </div>
+
+      <div>
+        <label class="label" for="enteremail">Email</label>
+        <input class="input" type="email" placeholder="Enter your email" id="enteremail"/>
+        <p class=" pemail" id="pemail"> </p>
+      </div>
+
+      <div>
+        <label class="label" for="select">Working Status</label>
+        <select class="select" id="select">
+          <option value="Active" selected>Active</option>
+          <option value="Inactive">Inactive</option>
+        </select>
+      </div>
+
+      <div>
+       <h3 class="label" >Gender</h3>
+       <input type ="radio" value="male" id="gendermale" name="gender" checked/>
+       <label for="gendermale">Male</label>
+       <input type ="radio" value="female" id="genderfemale"  name="gender" />
+       <label for="genderfemale">Female</label>
+      </div>
+
+      <div>
+        <button id="buttonid" class="button" type="submit">Submit</button>
+      </div>
+      
+    </form>
+  </div>
+</div> 
+  
+  <script src="form.js"> </script>
+</body>
+</html>

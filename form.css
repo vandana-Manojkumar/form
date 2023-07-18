@@ -1,0 +1,102 @@
+.header{
+  background-color:rgb(237, 237, 237);
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border : 1px solid #888888;
+  box-shadow: 5px 5px 15px #888888;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.h1{
+  margin-left: 25px;
+}
+.form{
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.label{
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: large;
+  font-style: oblique;
+}
+.input{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 250px;
+  border-radius: 3px;
+  border: 1px solid #888888 ;
+}
+.input:hover{
+  border-color: blue;
+  border-width: 2px ;
+}
+.input::placeholder{
+  padding-left: 10px;
+  font-size: small;
+}
+.button{
+  margin-top: 40px;
+  background-color: rgb(174, 212, 228);
+  color:black;
+  border: none;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-right: 10px;
+  transition: opacity 0.20s;
+  box-shadow:  2px 2px 7px rgb(29, 29, 114) ;
+}
+.pname , .pemail{
+  color: red;
+  margin: 0;
+}
+.select{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 250px;
+  border-radius: 3px;
+  border: 1px solid #888888 ;
+}
+@media all and (max-width : 600px ){
+    .header{
+          background-image:url("im3.jpg") ;
+          width: 350px;
+          }
+      .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .button{
+        background-color: rgb(173, 124, 124);
+      }
+      .label{
+        color:white;
+        
+      }
+      .h1{
+        color: rgb(173, 124, 124);
+      }
+} 
+@media all and (min-width : 601px){
+  
+    .header{
+          background-image: url("im2.jpg");
+          width: 500px;
+  }
+  .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+} 
