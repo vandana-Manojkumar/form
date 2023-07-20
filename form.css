@@ -66,7 +66,7 @@
 }
 @media all and (max-width : 600px ){
     .header{
-          background-image:url("im3.jpg") ;
+          background-image:url("images/im3.jpg") ;
           width: 350px;
           }
       .top{
@@ -89,7 +89,7 @@
 @media all and (min-width : 601px){
   
     .header{
-          background-image: url("im2.jpg");
+          background-image: url("images/im2.jpg");
           width: 500px;
   }
   .top{
